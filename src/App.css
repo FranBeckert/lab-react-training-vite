@@ -40,7 +40,7 @@
 /* my css */
 
 /* idCard function */
-.idCard {
+.idCard, .facebook-profile {
   display: flex;
   border: 2px solid black;
   margin: 5px;
@@ -53,7 +53,7 @@
   align-items: center;
 }
 
-.description {
+.description, .facebook-description {
   margin: 0px;
 }
 
@@ -140,4 +140,14 @@
   /* font-size: x-large; */
 }
 
+/* facebook profile */
 
+.facebook-profiles {
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook-img {
+  width: 100px;
+  object-fit: cover;
+}

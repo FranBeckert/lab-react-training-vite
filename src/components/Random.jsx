@@ -3,7 +3,7 @@ function Random({ min, max }) {
   return (
     <div className="random">
       <p>
-        Random value between {min} and {max} => {randomValue}
+          Random value between {min} and {max}  {` => ${randomValue}`}
       </p>
     </div>
   );
