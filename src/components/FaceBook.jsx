@@ -25,7 +25,7 @@ function FaceBook() {
   return (
     <div className="facebook">
       <div className="buttons-facebook">
-        <button onClick={() =>handleCountryClick(null)} >all</button>
+        <button onClick={() => handleCountryClick(null)}>all</button>
         {uniqueCountriesArray.map((country, index) => (
           <button
             key={index}
@@ -66,7 +66,6 @@ function FaceBook() {
             </div>
           </div>
         ))}
-        ;
       </div>
     </div>
   );
